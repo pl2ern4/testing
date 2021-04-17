@@ -1,0 +1,178 @@
+$black: black;
+
+@mixin getBorder($prop:'border') {
+  #{$prop}: 0.1rem $black solid;
+}
+
+.App {
+  text-align: center; 
+  &,.row{
+    @include getBorder();
+  }
+  .row{
+    width: calc(100% - 1.5rem);
+    min-height: 6rem;
+    display: grid;
+    margin:0.5rem 0 0.5rem 0.5rem;
+    grid-template-columns: 1rem 9rem 5rem auto;
+    .rank, .teriff,.streaming, .rate, .teriff-name{
+      padding: 1rem 0;
+    }
+    .teriff,.upload,.download div:first-of-type, button span{
+      display: none;
+    }
+    .content div:first-of-type{
+      display: block;
+    }
+    .rate{
+      display: inline-flex;
+      div:first-of-type{
+        font-weight: 500;
+      font-size: 12px;
+      margin: 0.1rem 0.2rem 0;
+      }
+      
+    }
+    button{
+      width:1.5rem;
+      @include getBorder();
+      box-shadow: 0.3rem 0.1rem 0.1rem 0.1rem $black;
+      height: calc(100% - 2px);
+      padding: 3rem 0 0 0;
+    }
+  }
+}
+
+@media (min-width: 481px) {
+  .App{
+    .row{
+      grid-template-columns: 2rem 15rem 14.5rem 15rem;
+      .upload{
+        display: block;
+        .text{
+          display: none;
+        }
+      }
+      .teriff-name{
+        margin: 0 1rem;
+      }
+      .rank, .teriff,.streaming, .rate, .teriff-name{
+        padding: 1rem 0;
+      }
+      .rate{
+        display: block;
+        width: 100%;
+        div:first-of-type {
+          font-size: 16px;
+        }
+      }
+      .streaming{
+        padding-left: 1px;
+        .option{
+          margin-bottom: 0.5rem;
+          .content{
+            border-radius: 60%;
+            height: 1.5rem;
+            width: 12rem;
+            display: flex;
+            text-align: center;
+            div{
+              width: 5rem;
+              border-radius: 0.2rem;
+              text-align: center;
+              z-index: 99;
+              background-color: white;
+              height: 100%;
+              top: -2px;
+              right: 0.1rem;
+              position: relative;
+              @include getBorder();
+            }
+            span{
+              text-align: start;
+              width: 100%;
+              padding-left: 0.5rem;
+            }
+            @include getBorder()
+          }
+        }
+      }
+      button{
+        width: calc(100% - 6rem);
+        height: 1.5rem;
+        padding: unset;
+        margin-top: 2rem;
+        span{
+          display: inline-block;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          position: relative;
+          width: calc(100% - 3rem);
+          text-align: center;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .App {
+    margin: 0.5rem;
+    width: calc(100% - 1rem);
+    .row{
+      width: calc(100% - 1.5rem);
+      min-height: 6rem;
+      display: grid;
+      margin:0.5rem 0 0.5rem 0.5rem;
+      grid-template-columns: 2rem 26rem 13rem 23rem 15rem;
+      .rank, .teriff,.streaming, .rate, .teriff-name{
+        padding: 1rem;
+      }
+      .teriff,.upload{
+        display: block;
+      } 
+      .rank{
+        @include getBorder('border-right');
+      }
+      .teriff{
+        margin:0 1rem;
+        text-align: left;
+      }
+      .streaming{
+        .option{
+          margin-bottom: 0.5rem;
+          .text{
+            display: block;
+            text-align: start;
+            color: #444242;
+            font-size: 15px;
+          }
+          .content{
+            // height: 1.5rem;
+            // width: 10rem;
+            display: flex;
+            text-align: center;
+            div{
+              // width: 1rem;
+              // text-align: center;
+              // @include getBorder()
+            }
+            span{
+              // text-align: center;
+              // width: 100%;
+            }
+            @include getBorder()
+          }
+        }
+      }
+      
+    }
+  }
+  
+}
+
+
+
+
