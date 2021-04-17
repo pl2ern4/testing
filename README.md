@@ -2,15 +2,15 @@ Here mobile first designing used to style the layout.
 
 ### In this project, given tools are used for development:
 
- - (React)[https://reactjs.org/]
+ - [React](https://reactjs.org/)
 
- - (Jest)[https://jestjs.io/]
+ - [Jest](https://jestjs.io/)
 
- - (ESLint)[https://eslint.org/]
+ - [EsLint](https://eslint.org/)
 
- - (SCSS)[https://sass-lang.com/]
+ - [SCSS](https://sass-lang.com/)
 
- - (Create-react-app)[https://reactjs.org/docs/create-a-new-react-app.html] 
+ - [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
 
 
 ### Dependency

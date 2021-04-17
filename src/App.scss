@@ -39,6 +39,7 @@ $black: black;
       box-shadow: 0.3rem 0.1rem 0.1rem 0.1rem $black;
       height: calc(100% - 2px);
       padding: 3rem 0 0 0;
+      cursor: pointer;
     }
   }
 }
@@ -150,19 +151,8 @@ $black: black;
             font-size: 15px;
           }
           .content{
-            // height: 1.5rem;
-            // width: 10rem;
             display: flex;
-            text-align: center;
-            div{
-              // width: 1rem;
-              // text-align: center;
-              // @include getBorder()
-            }
-            span{
-              // text-align: center;
-              // width: 100%;
-            }
+            text-align: center;            
             @include getBorder()
           }
         }
