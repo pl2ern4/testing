@@ -1,0 +1,436 @@
+{
+    "totalResults": "10",
+    "offers": [
+        {
+            "rank": "1",
+            "provider": {
+                "id": "61053",
+                "logoUrl": "https://www.verivox.de/i/vox-carrierlogo.ashx?id=61053",
+                "caption": {
+                    "text": "Anbieter"
+                },
+                "content": {
+                    "text": "Vodafone Kabel Deutschland GmbH"
+                }
+            },
+            "product": {
+                "id": "483414",
+                "hasPhoneFlatrate": "true",
+                "isTHomeAccess": "false",
+                "isForStudents": "false",
+                "positionZeroStatus": "0",
+                "isSpecialOffer": "false",
+                "isForBusinessCustomers": "false",
+                "caption": {
+                    "text": "Produkt"
+                },
+                "content": {
+                    "text": "Red Internet & Phone 32 Cable (Wechsler)"
+                },
+                "accessModes": {
+                    "accessMode": {
+                        "type": "cable"
+                    }
+                },
+                "numberOfPhoneLines": "1",
+                "numberOfPhoneNumbers": "1"
+            },
+            "contractTerm": {
+                "downloadSpeed": {
+                    "amount": "32000",
+                    "unit": "kbit/s",
+                    "caption": {
+                        "text": "Geschwindigkeit"
+                    },
+                    "content": {
+                        "text": "32.000 kbit/s"
+                    }
+                },
+                "uploadSpeed": {
+                    "amount": "2000",
+                    "unit": "kbit/s",
+                    "caption": {
+                        "text": "Geschwindigkeit"
+                    },
+                    "content": {
+                        "text": "2.000 kbit/s"
+                    }
+                },
+                "contractDuration": {
+                    "amount": "24",
+                    "unit": "month",
+                    "caption": {
+                        "text": "Laufzeit"
+                    },
+                    "content": {
+                        "text": "24 Monate"
+                    }
+                },
+                "cancellationPeriod": {
+                    "amount": "12",
+                    "unit": "week",
+                    "caption": {
+                        "text": "Kündigungsfrist"
+                    },
+                    "content": {
+                        "text": "12 Wochen"
+                    }
+                },
+                "prolongationPeriod": {
+                    "amount": "12",
+                    "unit": "month",
+                    "caption": {
+                        "text": "Vertragsverlängerung"
+                    },
+                    "content": {
+                        "text": "12 Monate"
+                    }
+                },
+                "flatrates": {
+                    "flatrates": [
+                        {
+                            "type": "fixedLine"
+                        },
+                        {
+                            "type": "internet"
+                        }
+                    ]
+                }
+            },
+            "signup": {
+                "desktop": {
+                    "url": "https://www.verivox.de/jump/jump.aspx?gc=true&carrier_id=61053&source_id=1&site_id=8&tariff_id=483414",
+                    "caption": {
+                        "text": "Anmelden"
+                    },
+                    "content": {
+                        "text": "Zum Anbieter"
+                    }
+                },
+                "responsive": {
+                    "url": "https://www.verivox.de/internetanbieter/Vodafone-Kabel-Deutschland-GmbH/483414/?productId=483414&clu=3&cl=24&downSpeed=32000&upSpeed=2000&productCampaignId=17917&voucher=1&tv=0&wlan=0&freeHardwareWanted=0&telephony=2&dsl=1&cable=1&vierg=1&satellite=1&thome=0&trafficLimitation=0&customer=1&prefix=030&simcard=0&surfstick=0&customerType=2&remainingTerm=6&includeCashBackCampaigns=1",
+                    "caption": {
+                        "text": "Anmelden"
+                    },
+                    "content": {
+                        "text": "Zur Bestellung"
+                    }
+                }
+            },
+            "campaign": {
+                "campaignId": "17917",
+                "campaignEndDate": "20.02.2018",
+                "campaignSavingsTooltip": "Aktions-Grundgebühr <span style=\"white-space:nowrap;\">7. - 24. Monat<\/span> 19,99&nbsp;€<br />Aktions-Grundgebühr <span style=\"white-space:nowrap;\">1. - 6. Monat<\/span> 0,00&nbsp;€<br />Startguthaben 30,00&nbsp;€<br />Sofortbonus 130,00&nbsp;€<br />",
+                "campaignSavings": {
+                    "amount": "519.940",
+                    "unit": "€",
+                    "caption": {
+                        "text": "Total savings"
+                    },
+                    "content": {
+                        "text": "519,940 €"
+                    }
+                }
+            },
+            "cost": {
+                "effectiveCost": {
+                    "amount": "10.41",
+                    "unit": "EUR",
+                    "caption": {
+                        "text": "Effektivpreis"
+                    },
+                    "content": {
+                        "text": "10,41 €"
+                    }
+                }
+            },
+            "remarks": [
+                {
+                    "type": "cashBack",
+                    "isOneTimeBonusType": "false",
+                    "printHeaderInBold": "false",
+                    "highlightMode": "0",
+                    "caption": {
+                        "text": "130€ Sofortbonus von Verivox"
+                    },
+                    "content": {
+                        "text": "Verivox Vorteil",
+                        "tooltip": {
+                            "header": "Verivox Vorteil",
+                            "body": "Bei Bestellung bis zum <b>20.02.2018<\/b> erhalten Sie einen Bonus in HÃ¶he von 130 Euro, wenn Sie diesen Vertrag von Vodafone Kabel Deutschland hier abschließen. Sie müssen nur Ihre erste Vodafone Kabel Deutschland-Rechnung bis spätestens 6 Monate nach Vertragsabschluss an Verivox (sofortbonus@verivox.com) schicken, schon wird Ihnen der 130-Euro-Bonus überwiesen."
+                        }
+                    }
+                },
+                {
+                    "type": "freetext",
+                    "isOneTimeBonusType": "false",
+                    "printHeaderInBold": "false",
+                    "highlightMode": "0",
+                    "caption": {
+                        "text": "Reibungsloser Wechsel mit Freimonaten"
+                    },
+                    "content": {
+                        "tooltip": {
+                            "header": "Reibungsloser Wechsel mit Freimonaten",
+                            "body": "Während Ihr derzeitiger Vertrag noch läuft, nutzen Sie bereits die Vorteile des neuen Tarifs. Für die sich überschneidenden Monate (bis zu 12 Monate) berechnet Vodafone keine Grundgebühr. Im obigen Filter haben Sie die MÃ¶glichkeit, Ihre individuelle Restlaufzeit einzustellen. Die entsprechenden Freimonate werden direkt in den monatlichen Durchschnittspreis eingerechnet.<br><br><b>Voraussetzung ist ein bestehender Vertrag mit einem anderen Festnetzanbieter und die Mitnahme der Rufnummer.<\/b><br><br>"
+                        }
+                    }
+                },
+                {
+                    "type": "flatrateIncluded",
+                    "isOneTimeBonusType": "false",
+                    "printHeaderInBold": "false",
+                    "highlightMode": "0",
+                    "caption": {
+                        "text": "Inkl. Festnetz-Flat"
+                    },
+                    "content": {
+                        "tooltip": {
+                            "header": "Inkl. Festnetz-Flat",
+                            "body": "Telefon-Flat ins deutsche Festnetz enthalten"
+                        }
+                    }
+                }
+            ],
+            "additionalOptions": {
+                "options": [
+                    {
+                        "costsIncluded": "false",
+                        "type": "SecurityOption",
+                        "subType": "InternetSecurityPack",
+                        "optionId": "np16685",
+                        "isMandatory": "false",
+                        "caption": {
+                            "text": "Name"
+                        },
+                        "content": {
+                            "text": "Sicherheitspaket (2er Lizenz)"
+                        },
+                        "costDetails": {
+                            "oneTimeCost": [
+                                {
+                                    "amount": "0.00",
+                                    "unit": "EUR",
+                                    "type": "setupFeeOption",
+                                    "caption": {
+                                        "text": "Einrichtung"
+                                    },
+                                    "content": {
+                                        "text": "kostenlos"
+                                    }
+                                }
+                            ],
+                            "recurringCost": [
+                                {
+                                    "amount": "0.00",
+                                    "unit": "EUR",
+                                    "type": "baseFeeOption",
+                                    "timeUnit": "month",
+                                    "caption": {
+                                        "text": "Grundgebühr"
+                                    },
+                                    "content": {
+                                        "text": "kostenlos"
+                                    }
+                                }
+                            ]
+                        },
+                        "contractTerms": [
+                            {
+                                "canBeCancelled": "false",
+                                "baseFee": {
+                                    "amount": "0.00",
+                                    "unit": "€",
+                                    "caption": {
+                                        "text": "Grundgebühr"
+                                    },
+                                    "content": {
+                                        "text": "0,00 €"
+                                    }
+                                },
+                                "timeFrame": {
+                                    "startMonth": "1",
+                                    "endMonth": "2"
+                                },
+                                "cancellationPeriod": {
+                                    "amount": "4",
+                                    "unit": "month",
+                                    "caption": {
+                                        "text": "Kündigungsfrist"
+                                    },
+                                    "content": {
+                                        "text": "4 Monate"
+                                    }
+                                }
+                            },
+                            {
+                                "canBeCancelled": "false",
+                                "baseFee": {
+                                    "amount": "3.99",
+                                    "unit": "€",
+                                    "caption": {
+                                        "text": "Grundgebühr"
+                                    },
+                                    "content": {
+                                        "text": "3,99 €"
+                                    }
+                                },
+                                "timeFrame": {
+                                    "startMonth": "3",
+                                    "endMonth": "24"
+                                },
+                                "cancellationPeriod": {
+                                    "amount": "4",
+                                    "unit": "month",
+                                    "caption": {
+                                        "text": "Kündigungsfrist"
+                                    },
+                                    "content": {
+                                        "text": "4 Monate"
+                                    }
+                                }
+                            }
+                        ],
+                        "shortRemark": "Die ersten 2 Monate sind kostenlos, danach 3,99 Euro/Monat.",
+                        "remark": "Die ersten 2 Monate sind kostenlos, anschließend fallen monatlich 3,99 Euro an. Die Kündigungsfrist beträgt 4 Wochen. Das Sicherheitspaket kann per E-Mail (kundenservice@kabeldeutschland.de), Post (Kabel Deutschland Vertrieb und Service GmbH, Kundenservice, 99116 Erfurt) oder per Fax (01805-5299925) gekündigt werden. \r\n<br>\r\n<br>Umfassendes PC- und Internet-Sicherheitspaket bestehend aus Virenschutz, Anti-Spyware, Firewall, Spamschutz und Kindersicherung für einen PC. "
+                    },
+                    {
+                        "costsIncluded": "false",
+                        "type": "TelephonyOption",
+                        "subType": "Undefined",
+                        "optionId": "po131392",
+                        "isMandatory": "false",
+                        "caption": {
+                            "text": "Name"
+                        },
+                        "content": {
+                            "text": "Mobile & Euro-Flat"
+                        },
+                        "costDetails": {
+                            "oneTimeCost": [
+                                {
+                                    "amount": "0.00",
+                                    "unit": "EUR",
+                                    "type": "setupFeeOption",
+                                    "caption": {
+                                        "text": "Einrichtung"
+                                    },
+                                    "content": {
+                                        "text": "kostenlos"
+                                    }
+                                }
+                            ],
+                            "recurringCost": [
+                                {
+                                    "amount": "9.99",
+                                    "unit": "EUR",
+                                    "type": "baseFeeOption",
+                                    "timeUnit": "month",
+                                    "caption": {
+                                        "text": "Grundgebühr"
+                                    },
+                                    "content": {
+                                        "text": "9,99 €/Monat"
+                                    }
+                                }
+                            ]
+                        },
+                        "contractTerms": [
+                            {
+                                "canBeCancelled": "false",
+                                "baseFee": {
+                                    "amount": "9.99",
+                                    "unit": "€",
+                                    "caption": {
+                                        "text": "Grundgebühr"
+                                    },
+                                    "content": {
+                                        "text": "9,99 €"
+                                    }
+                                },
+                                "timeFrame": {
+                                    "startMonth": "1",
+                                    "endMonth": "24"
+                                }
+                            }
+                        ],
+                        "shortRemark": "Die Flatrate ins deutsche Mobilfunknetz und ins Festnetz 25 europäischer Länder.",
+                        "remark": "Gilt für folgende Länder:\r\n<br><br>\r\nBelgien, Dänemark, Frankreich, Griechenland, Großbritannien, Guernsey, Irland, Isle of Man, Italien, Jersey, Liechtenstein, Luxemburg, Monaco, Niederlande, Norwegen, Ã–sterreich, Portugal, San Marino, Schweden, Schweiz, Slowakei, Slowenien, Spanien, Spitzbergen und Jan Mayen, Tschechien und Vatikanstadt.\r\n<br><br>\r\nDie Mindestvertragslaufzeit beträgt 6 Monate, danach ist die Option monatlich kündbar.\r\n"
+                    },
+                    {
+                        "costsIncluded": "false",
+                        "type": "TelephonyOption",
+                        "subType": "Undefined",
+                        "optionId": "po70041",
+                        "isMandatory": "false",
+                        "caption": {
+                            "text": "Name"
+                        },
+                        "content": {
+                            "text": "Mobile & International-Flat"
+                        },
+                        "costDetails": {
+                            "oneTimeCost": [
+                                {
+                                    "amount": "0.00",
+                                    "unit": "EUR",
+                                    "type": "setupFeeOption",
+                                    "caption": {
+                                        "text": "Einrichtung"
+                                    },
+                                    "content": {
+                                        "text": "kostenlos"
+                                    }
+                                }
+                            ],
+                            "recurringCost": [
+                                {
+                                    "amount": "14.99",
+                                    "unit": "EUR",
+                                    "type": "baseFeeOption",
+                                    "timeUnit": "month",
+                                    "caption": {
+                                        "text": "Grundgebühr"
+                                    },
+                                    "content": {
+                                        "text": "14,99 €/Monat"
+                                    }
+                                }
+                            ]
+                        },
+                        "contractTerms": [
+                            {
+                                "canBeCancelled": "false",
+                                "baseFee": {
+                                    "amount": "14.99",
+                                    "unit": "€",
+                                    "caption": {
+                                        "text": "Grundgebühr"
+                                    },
+                                    "content": {
+                                        "text": "14,99 €"
+                                    }
+                                },
+                                "timeFrame": {
+                                    "startMonth": "1",
+                                    "endMonth": "24"
+                                }
+                            }
+                        ],
+                        "shortRemark": "Die Flatrate ins deutsche Mobilfunknetz und ins Festnetz von über 60 Ländern.",
+                        "remark": "Gilt für folgende Länder:\r\n<br><br>\r\nAmerikanische Jungferninseln, Andorra, Argentinien, Australien, Belgien, Brunei Darussalem, China, Dänemark, Estland, Finnland, Frankreich, FranzÃ¶sisch-Guyana, Griechenland, Großbritannien, Guadeloupe, Guam, Guernsey, Hongkong, Indien, Irland, Island, Isle of Man, Israel, Italien, Japan, Jersey, Kanada, Kroatien, Liechtenstein, Litauen, Luxemburg, Malaysia, Malta, Martinique, Mexiko, Monaco, Neuseeland, Niederlande, Norwegen, Ã–sterreich, Panama, Peru, Polen, Portugal, Puerto Rico, Rumänien, Russland, San Marino, Schweden, Schweiz, Singapur, Slowakei, Slowenien, Spanien, Spitzbergen und Jan Mayen, Südafrika, Südkorea, Taiwan, Thailand, Tschechien, Türkei, Ungarn, USA, Vatikanstadt, Venezuela und Zypern.\r\n<br><br>\r\nDie Mindestvertragslaufzeit beträgt 6 Monate, danach ist die Option monatlich kündbar.\r\n"
+                    }
+                ],
+                "additionalOptionsCostExplanation": {
+                    "caption": {
+                        "text": "Berechnete Optionen"
+                    },
+                    "content": {
+                        "text": "In den durchschnittlichen Kosten pro Monat mit einberechnet."
+                    }
+                }
+            },
+            "requiresAvailabilityCheck": "true"
+        }
+    ]
+}
