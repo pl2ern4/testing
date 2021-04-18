@@ -8,15 +8,7 @@ function App() {
      * fetch method can be move to differet file with the header
      * if there are more than one call
      */
-    fetch('/data.json'
-      , {
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        }
-
-      }
-    )
+    fetch('https://jsonkeeper.com/b/0758')
       .then(res => res.json())
       .then(res => {
         setState(res);
