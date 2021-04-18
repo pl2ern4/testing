@@ -4,14 +4,15 @@ import { useEffect, useState } from 'react';
 function App() {
   const [state, setState] = useState();
   useEffect(() => {
-    /**
+     /**
      * fetch method can be move to differet file with the header
      * if there are more than one call
      */
     fetch('/data.json'
       , {
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
         }
 
       }
