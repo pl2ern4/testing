@@ -14,7 +14,7 @@ $black: black;
     min-height: 6rem;
     display: grid;
     margin:0.5rem 0 0.5rem 0.5rem;
-    grid-template-columns: 1rem 9rem 5rem auto;
+    grid-template-columns: 10% 40% 20% 30%;
     .rank, .teriff,.streaming, .rate, .teriff-name{
       padding: 1rem 0;
     }
@@ -47,7 +47,7 @@ $black: black;
 @media (min-width: 481px) {
   .App{
     .row{
-      grid-template-columns: 2rem 15rem 14.5rem 15rem;
+      grid-template-columns: 10% 35% 25% 30%;
       .upload{
         display: block;
         .text{
@@ -56,9 +56,6 @@ $black: black;
       }
       .teriff-name{
         margin: 0 1rem;
-      }
-      .rank, .teriff,.streaming, .rate, .teriff-name{
-        padding: 1rem 0;
       }
       .rate{
         display: block;
@@ -127,10 +124,7 @@ $black: black;
       min-height: 6rem;
       display: grid;
       margin:0.5rem 0 0.5rem 0.5rem;
-      grid-template-columns: 2rem 26rem 13rem 23rem 15rem;
-      .rank, .teriff,.streaming, .rate, .teriff-name{
-        padding: 1rem;
-      }
+      grid-template-columns: 2% 35% 20% 23% 20%;
       .teriff,.upload{
         display: block;
       } 

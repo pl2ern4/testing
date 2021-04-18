@@ -4,7 +4,18 @@ import { useEffect, useState } from 'react';
 function App() {
   const [state, setState] = useState();
   useEffect(() => {
-    fetch('http://localhost:4001/data')
+    /**
+     * fetch method can be move to differet file with the header
+     * if there are more than one call
+     */
+    fetch('/data.json'
+      , {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+
+      }
+    )
       .then(res => res.json())
       .then(res => {
         setState(res);
@@ -51,7 +62,7 @@ function App() {
               <div>
                 <button onClick={handleClick(obj.provider.logoUrl)}>
                   <span>
-                  {`To ${getValue(obj.provider)}`}
+                    {`To ${getValue(obj.provider)}`}
                   </span>
                   {'>'}
                 </button>
